@@ -10,12 +10,13 @@ body, html {
  background-position: center;
  background-size: cover;
  }
+ #about-us{
+  text-align: center;
+ }
 #services{
  background-image: url("photos/s_image.jpg");
-
-
-
-
+ text-align: center;
 }
+
 
 

@@ -27,6 +27,24 @@ body, html {
  height: 300px;
  width: 300px;
 }
+#contactUs{
+ background-image: url("photos/contactus.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 50%;
+}
+
+.form-control::placeholder {
+ color: white;
+}
+#contactUs{
+ padding-bottom: 10px ;
+ padding-left: 200px ;
+ padding-right: 200px ;
+ padding-top: 50px;
+
+}
 
 
 

@@ -16,6 +16,11 @@ body, html {
 #services{
  background-image: url("photos/s_image.jpg");
  text-align: center;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ padding-top: 60px;
+ padding-bottom: 60px;
 }
 
 

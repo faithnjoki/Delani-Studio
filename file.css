@@ -6,7 +6,7 @@ body, html {
 #home {
  background-image: url("photos/Background1.jpg");
  background-repeat: no-repeat;
- height: 100%;
+height: 100%; 
  background-position: center;
  background-size: cover;
  }
@@ -47,6 +47,10 @@ body, html {
 }
 #social_Icons{
  text-align: center;
+}
+#mouseClick{
+  position: relative;
+  top: 220px; 
 }
 
 

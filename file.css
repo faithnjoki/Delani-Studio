@@ -24,8 +24,8 @@ body, html {
 }
 
 .porfolio-img{
- height: 300px;
- width: 300px;
+ height: 200px;
+ width: 250px;
 }
 #contactUs{
  background-image: url("photos/contactus.jpg");
@@ -45,6 +45,5 @@ body, html {
  padding-top: 50px;
 
 }
-
 
 

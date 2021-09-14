@@ -5,10 +5,10 @@ Date: 11th September 2021.
 Developer: Faith Njoki Muthoni
 
 ## Description
-The website has detailed information about Delani studio and What they do.Some Portfolio is Also included
+The website has detailed information about Delani studio and What they do.
 
 ## Setup/Installation Requirements
-The link to my live projects is https://faithnjoki.github.io/Portfolio/ 
+The link to my live projects is  
 It works with any browser.No bugs reported but the work is prone to change.
 
 ## Technologies Used

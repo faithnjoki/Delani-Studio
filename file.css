@@ -58,9 +58,28 @@ height: 100%;
   left:400px;
   background-color: transparent;
 }
-#work1text{
-  border: 2px solid black;
+.layer{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+  opacity: 1.5;
+  background: transparent;
+
+
+}
+.port_img {
+  display: relative;
+  
+
+}
+.text{
   display: none;
+  
+}
+.portfolio{
+  text-align: center;
+  
 }
 
 

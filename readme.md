@@ -8,7 +8,7 @@ Developer: Faith Njoki Muthoni
 The website has detailed information about Delani studio and What they do.
 
 ## Setup/Installation Requirements
-The link to my live projects is  
+The link to my live projects is  https://faithnjoki.github.io/Delani-Studio/
 It works with any browser.No bugs reported but the work is prone to change.
 
 ## Technologies Used

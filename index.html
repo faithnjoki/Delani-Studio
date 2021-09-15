@@ -28,7 +28,7 @@
             <br>
             <p class="text-white">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</p>
             <br>
-            <!--Add mouse functions-->
+            <!-- mouse -->
             <a href="#about-us"><img src="photos/mouse_click.png" alt="mouse" id="mouseClick"></a>
     </div>
 </div>
@@ -87,49 +87,54 @@
 </div>
 </div>
 <br><br>
+<!--REMEMBER TO ADD jquerry-->
 <div class="container" id="potfolio">
     <h2 style="text-align: center; font-weight: bold">PORTFOLIO</h2>
     <br>
     <div class="row text-center">
-        <div class="col">
-            <img src="photos/portfolio/work4.jpg" alt="port" class="porfolio-img">
+        <div class="col" id="wok1">
+            <img src="photos/portfolio/work4.jpg" alt="port" class="porfolio-img" id="work1">
+            <h5 id="work1text">Black studio</h5>
+            
+           
+        </div>
+        <div class="col" >
+            <img src="photos/portfolio/work3.jpg" alt="port" class="porfolio-img" id="work2">
+        </div>
+        <div class="col" >
+            <img src="photos/portfolio/work2.jpg" alt="port" class="porfolio-img"  id="work3">
         </div>
         <div class="col">
-            <img src="photos/portfolio/work3.jpg" alt="port" class="porfolio-img">
-        </div>
-        <div class="col">
-            <img src="photos/portfolio/work2.jpg" alt="port" class="porfolio-img">
-        </div>
-        <div class="col">
-            <img src="photos/portfolio/work3.jpg" alt="port" class="porfolio-img">
+            <img src="photos/portfolio/work1.jpg" alt="port" class="porfolio-img"  id="work4">
         </div>
     </div>
     <br>
     <div class="row text-center">
-        <div class="col">
-            <img src="photos/portfolio/work5.jpg" alt="port" class="porfolio-img">
+        <div class="col" >
+            <img src="photos/portfolio/work5.jpg" alt="port" class="porfolio-img" id="work5">
         </div>
-        <div class="col">
-            <img src="photos/portfolio/work6.jpg" alt="port" class="porfolio-img">
+        <div class="col" >
+            <img src="photos/portfolio/work6.jpg" alt="port" class="porfolio-img" id="work6">
         </div>
-        <div class="col">
-            <img src="photos/portfolio/work7.jpg" alt="port" class="porfolio-img">
+        <div class="col" >
+            <img src="photos/portfolio/work7.jpg" alt="port" class="porfolio-img" id="work7">
         </div>
-        <div class="col">
-            <img src="photos/portfolio/work8.jpg" alt="port" class="porfolio-img">
+        <div class="col" >
+            <img src="photos/portfolio/work8.jpg" alt="port" class="porfolio-img" >
         </div>
     </div>
 </div>
 <br>
  
 <!-- contact us -->
-<!--REMEMBER TO ADD MAILCHIP-->
+
+<form action="http://eepurl.com/hIoHSP" method="POST">
 <div class="container" id="contactUs">
     <h2 style="text-align: center; color: white; font-weight: bold;" >CONTACT US</h2>
     <br>
     <div class="row">
         <div class="col-sm">
-        <input type="text" class="form-control bg-transparent text-white" placeholder="Name...">
+        <input type="text" class="form-control bg-transparent text-white" placeholder="Name..." item id="name">
         </div>
         <div class="col-sm">
             <input type="text" class="form-control bg-transparent text-white" placeholder="Email...">
@@ -140,7 +145,11 @@
         <div class="col-sm">
         <textarea class="form-control bg-transparent text-white" placeholder="Your message here..." rows="5"></textarea>
         </div>
-    </div>
+    
+</div>
+</form>
+<br>
+    <button type="submit" id="btn">Submit</button>
 </div>
 <br>
 

@@ -1,4 +1,6 @@
- //devpic
+ //development
+ //id devpic
+ //id devtext
  $(document).ready(function(){ 
   
   $("#devpic").click(function(){
@@ -14,6 +16,8 @@
  
  
 //prod Management
+//id prdmapic
+//id prdmatext
  $(document).ready(function(){
  $("#prdmanpic").click(function(){
  $("#prdmanpic").hide()
@@ -41,8 +45,30 @@
   $("#designtext").hide()
   $("#designpic").show()
 
-
   })
-
+  $("#btn").click(function(){
+   var name = $("input#name").val();
+   alert (name + " we have received your message,Thank you for reaching out.")
+  })
  })
- 
+
+ HOVER
+//   $(document).ready(function(){
+//    $("#wok1").mouseenter(function(){
+//   $("#work1").show();
+//   }, function(){
+//   $("#work1text").css("visibility", "hidden");
+// });
+
+// })
+$(document).ready(function(){
+ $("#wok1").mouseenter(function () {
+ $("#work1text").show();
+  })
+    .mouseleave(function () {
+      $("#work1").hide();
+    })
+
+})
+
+
